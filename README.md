@@ -30,7 +30,7 @@ containing the following quantities for each temperature, in order:
 temperature, mean epsilon, mean magnetization, heat capacity per spin,
 magnetic susceptibility per spin, epsilon squared and m squared.
 
-If `store_samples` is set to `true` and `min temperature = max temperature`,
+If `store_samples` is set to `true` and `min temperature` is equal to `max temperature`,
 an additional file is generated containing per-cycle values for epsilon,
 running mean epsilon, heat capacity and magnetic susceptibility.
 
