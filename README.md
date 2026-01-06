@@ -11,8 +11,7 @@ and visualization of results.
 
 - `src/` – C++ implementation of the Ising model and Monte Carlo solver  
 - `include/` – header files  
-- `python/` – Python scripts for post-processing and visualization  
-- `results/` – simulation output files (not tracked in Git)
+- `python/` – Python scripts for analysis and visualization  
 
 ## Build and run
 
