@@ -30,7 +30,7 @@ Outputs a file named "L\<lattice length\>_N\<MCMC_cycles\>_\<#temp_steps\>values
 
 ## Analysis and visualization in Python
 
-Python scripts for analysis are located in the `analysis/` directory:
+Python scripts for analysis are located in the `python/` directory:
 
 ### `compare.py`  
   Reads file containing MCMC-cycles done, epsilon, running mean epsilon, heat capacity until current cycle and magnetic susceptibility until current cycle, for every MCMC cycle done, and plots the wanted quantity and its analytical solution.
