@@ -4,9 +4,7 @@
 
 Numerical simulation of the two-dimensional Ising model using the Metropolis Monte Carlo algorithm.
 The project investigates thermodynamic properties and phase transitions by sampling energy and
-magnetisation across a range of temperatures.
-
-Implemented in C++ with Python scripts for statistical analysis
+magnetisation across a range of temperatures. The simulation is implemented in C++ with Python scripts for statistical analysis
 and visualization of results.
 
 ## Repository structure
@@ -34,20 +32,20 @@ Outputs a file named "L\<lattice length\>_N\<MCMC_cycles\>_\<#temp_steps\>values
 
 Python scripts for analysis are located in the `analysis/` directory:
 
-- `compare.py`  
+### `compare.py`  
   Reads file containing MCMC-cycles done, epsilon, running mean epsilon, heat capacity until current cycle and magnetic susceptibility until current cycle, for every MCMC cycle done, and plots the wanted quantity and its analytical solution.
 
-- `plot_burn_in.py`  
+### `plot_burn_in.py`  
   Reads four files containing MCMC-cycles done, epsilon, running mean epsilon, heat capacity until current cycle and magnetic susceptibility until current cycle, for every MCMC-cycle done, and plots epsilon and mean epsilon for the four different files in the same plot.
 
-- `distribution.py`  
+### `distribution.py`  
   Plots histogram approximating pdf of epsilon of the $20 \times 20$ Ising-lattice.
 
-- `plot_values.py`  
+### `plot_values.py`  
   Reads files containing temperature, mean epsilon, mean m, heat capacity per spin, magnetic susceptility per spin, epsilon squared and m squared for different temperatures, and plots one of the quantities against temperature. Also performs secound order fitting of the data, and plots the fit.
 
 
-- `critical_point.py`  
+### `critical_point.py`  
   Estimates critical temperature at $L \rightarrow \infty$, and makes a plot of it.
 
 
